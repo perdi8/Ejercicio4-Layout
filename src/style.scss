@@ -1,0 +1,54 @@
+
+body{
+    padding: 0px;
+    margin:0px;
+}
+
+.container{
+    background-color: rgb(226, 225, 225);
+    width: 22rem;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 250px;
+    padding: 20px;
+}
+
+.card-content{
+    display: inline-flex;
+    flex-direction: column;
+    border: 1px rgb(137, 137, 137) solid;
+    padding: 10px;
+    background-color: white;
+
+    .title{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: normal;
+    }
+    .text{
+        font-family: Georgia, Times, 'Times New Roman', serif;
+        color: rgb(90, 89, 89);
+
+    }
+
+    .published{
+        margin-left: auto;
+        font-weight: bold;
+    }
+
+    .date{
+        font-weight: normal;
+        color: rgb(0, 182, 0);
+    }
+
+    button{
+        background-color: rgb(1, 155, 1);
+        color:white;
+        width: 275px;
+        height: 50px;
+        font-size: large;
+    }
+}
+
